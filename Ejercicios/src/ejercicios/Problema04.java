@@ -15,7 +15,28 @@ public class Problema04 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        double base;
+        double potencia;
+        double[] bases = {100, 90, 80, 70, 60};
+        double[] potencias = {2, 3, 2, 2, 1};
+        double[] resultado = new double[5];
+
+        for (int i = 0; i < 5; i++) {
+            base = bases[i];
+            potencia = potencias[i];
+            resultado[i] = obtenerPotencia(resultado, base, potencia);
+            System.out.printf("%s\n", obtenerPotencia(resultado, base, potencia));
+        }
+
     }
-    
+
+    public static double obtenerPotencia(double[] resultado, double base,
+            double potencia) {
+
+        if (potencia == 1) {
+            return base;
+        } else {
+            return base * obtenerPotencia(resultado, base, potencia - 1);
+        }
+    }
 }
