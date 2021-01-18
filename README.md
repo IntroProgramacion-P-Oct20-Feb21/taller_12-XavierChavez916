@@ -23,6 +23,8 @@ public class Ejemplo00 {
 }
 ```
 #### Respuesta aquí
+Su salida es 17 
+Ya que se esta usando un metodo recursivo y se va sumando el valor de cada posicion del arreglo
 
 #### Fin respuesta
 
