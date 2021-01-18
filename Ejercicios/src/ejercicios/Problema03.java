@@ -24,7 +24,7 @@ public class Problema03 {
             numero1 = datos[i];
             numero2 = datos2[i];
             suma[i] = valorSuma(numero1, numero2);
-            System.out.println(suma[i]);
+            System.out.printf("%s + %s = %s\n", datos[i], datos2[i], suma[i]);
         }
 
     }
