@@ -25,7 +25,8 @@ public class Problema04 {
             base = bases[i];
             potencia = potencias[i];
             resultado[i] = obtenerPotencia(resultado, base, potencia);
-            System.out.printf("%s\n", obtenerPotencia(resultado, base, potencia));
+            System.out.printf("%.1f^%.1f=%.1f\n", bases[i],potencias[i],
+                    obtenerPotencia(resultado, base, potencia));
         }
 
     }
