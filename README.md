@@ -23,6 +23,10 @@ public class Ejemplo00 {
 }
 ```
 #### Respuesta aquí
+Su salida es 17 
+De la funcion misterio se envia 2 parametros el primero es un arreglo de entero y el segundo un 
+tipo de dato entero y se esta usando un metodo recursivo y se va sumando el valor de cada posicion del arreglo
+
 
 #### Fin respuesta
 
